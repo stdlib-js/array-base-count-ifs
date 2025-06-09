@@ -1,4 +1,0 @@
-// Copyright (c) 2025 The Stdlib Authors. License is Apache-2.0: http://www.apache.org/licenses/LICENSE-2.0
-/// <reference types="./index.d.ts" />
-import t from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-arraylike2object@v0.2.1-esm/index.mjs";import r from"https://cdn.jsdelivr.net/gh/stdlib-js/array-base-zero-to@v0.2.1-esm/index.mjs";function e(t,r,e){var n,s,o,a,l;for(n=t.data,s=t.accessors[0],l=0,o=0;o<r.length;o++)e(s(n,a=r[o]),a,n)&&(r[l]=a,l+=1);return r.length=l,r}function n(t,r,e){var n,s,o;for(o=0,n=0;n<r.length;n++)e(t[s=r[n]],s,t)&&(r[o]=s,o+=1);return r.length=o,r}function s(){var s,o,a,l,h,i;for(o=[],s=[],i=0;i<arguments.length;i+=2)o.push(t(arguments[i])),s.push(arguments[i+1]);for(a=arguments[0].length,l=r(a),i=0;i<o.length;i++)l=(h=o[i]).accessorProtocol?e(h,l,s[i]):n(h.data,l,s[i]);return l.length}export{s as default};
-//# sourceMappingURL=index.mjs.map
