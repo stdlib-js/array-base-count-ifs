@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/array-base-count-ifs",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Perform element-wise evaluation of one or more input arrays according to provided predicate functions and count the number of elements for which all predicates respectively return `true`.",
   "license": "Apache-2.0",
   "author": {
@@ -43,7 +43,7 @@
   },
   "devDependencies": {
     "@stdlib/array-base-to-accessor-array": "^0.2.2",
-    "@stdlib/array-complex128": "^0.3.0",
+    "@stdlib/array-complex128": "^0.3.1",
     "@stdlib/array-int32": "^0.2.2",
     "@stdlib/assert-is-negative-integer": "^0.2.2",
     "@stdlib/assert-is-nonnegative-integer": "^0.2.2",
@@ -53,7 +53,7 @@
     "@stdlib/math-base-special-pow": "^0.3.0",
     "@stdlib/random-array-discrete-uniform": "^0.2.1",
     "@stdlib/random-array-uniform": "^0.2.1",
-    "@stdlib/utils-nary-function": "^0.2.2",
+    "@stdlib/utils-nary-function": "^0.2.3",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",
     "tap-min": "git+https://github.com/Planeshifter/tap-min.git",
