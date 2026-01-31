@@ -52,6 +52,11 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/array-base-count-ifs/tags). For example,
+
+```javascript
 import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@v0.1.0-esm/index.mjs';
 ```
 
@@ -128,7 +133,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 var isPositiveInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer' ).isPrimitive;
 var isNegativeInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-integer' ).isPrimitive;
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
-import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@v0.1.0-esm/index.mjs';
+import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@esm/index.mjs';
 
 var x = discreteUniform( 10, -5, 5, {
     'dtype': 'int32'
