@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@esm/index.mjs';
+import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@v0.1.1-esm/index.mjs';
 ```
 
 #### countIfs( x0, predicate0\[, x1, predicate1\[, x2, predicate2\[, ...args]]] )
@@ -128,7 +128,7 @@ import discreteUniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-array-
 var isPositiveInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-positive-integer' ).isPrimitive;
 var isNegativeInteger = require( 'https://cdn.jsdelivr.net/gh/stdlib-js/assert-is-negative-integer' ).isPrimitive;
 import naryFunction from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-nary-function@esm/index.mjs';
-import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@esm/index.mjs';
+import countIfs from 'https://cdn.jsdelivr.net/gh/stdlib-js/array-base-count-ifs@v0.1.1-esm/index.mjs';
 
 var x = discreteUniform( 10, -5, 5, {
     'dtype': 'int32'
