@@ -42,7 +42,7 @@
     "@stdlib/types": "^0.4.3"
   },
   "devDependencies": {
-    "@stdlib/array-base-to-accessor-array": "^0.2.2",
+    "@stdlib/array-base-to-accessor-array": "^0.2.3",
     "@stdlib/array-complex128": "^0.3.2",
     "@stdlib/array-int32": "^0.2.3",
     "@stdlib/assert-is-negative-integer": "^0.2.3",
